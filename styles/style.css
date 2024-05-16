@@ -19,9 +19,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1,
@@ -110,7 +107,7 @@ ol {
   width: 100%;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -139,7 +136,7 @@ ol {
   gap: 5px;
 }
 
-.search-form__checkbox-list:hover {
+.search-form__label:hover {
   text-decoration: underline;
 }
 
@@ -212,7 +209,7 @@ ol {
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
-  line-height: 94%;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -265,6 +262,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  flex-grow: 1;
 }
 
 .content__video-card-title {
@@ -274,7 +272,7 @@ ol {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 1;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
